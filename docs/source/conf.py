@@ -13,7 +13,12 @@ author = "liblaf"
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["sphinx.ext.autodoc", "autoapi.extension"]
+extensions = [
+    "autoapi.extension",
+    "sphinx.ext.autodoc",
+    "sphinx.ext.githubpages",
+    "sphinx.ext.viewcode",
+]
 
 templates_path = ["_templates"]
 exclude_patterns = []
@@ -24,7 +29,6 @@ exclude_patterns = []
 
 html_theme = "furo"
 html_static_path = ["_static"]
-html_baseurl = "/hello-sphinx-autoapi/"
 
 # ---------------------------- Options for AutoAPI --------------------------- #
 # https://sphinx-autoapi.readthedocs.io/en/latest/reference/config.html
