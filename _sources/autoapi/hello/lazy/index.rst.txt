@@ -1,0 +1,15 @@
+hello.lazy
+==========
+
+.. py:module:: hello.lazy
+
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/hello/lazy/_hello/index
+
+

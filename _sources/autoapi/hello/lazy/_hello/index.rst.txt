@@ -1,0 +1,19 @@
+hello.lazy._hello
+=================
+
+.. py:module:: hello.lazy._hello
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   hello.lazy._hello.hello_lazy
+
+
+Module Contents
+---------------
+
+.. py:function:: hello_lazy() -> str
+

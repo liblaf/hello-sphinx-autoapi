@@ -1,0 +1,28 @@
+hello
+=====
+
+.. py:module:: hello
+
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   /autoapi/hello/lazy/index
+
+
+Functions
+---------
+
+.. autoapisummary::
+
+   hello.hello
+
+
+Package Contents
+----------------
+
+.. py:function:: hello() -> str
+
