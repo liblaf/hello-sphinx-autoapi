@@ -24,7 +24,7 @@ exclude_patterns = []
 
 html_theme = "furo"
 html_static_path = ["_static"]
-
+html_baseurl = "/hello-sphinx-autoapi/"
 
 # ---------------------------- Options for AutoAPI --------------------------- #
 # https://sphinx-autoapi.readthedocs.io/en/latest/reference/config.html

@@ -1,0 +1,5 @@
+{
+  "words": ["eifinger", "furo", "liblaf", "pycache", "toctree", "venv"],
+  "ignorePaths": ["**/*-lock.*", "**/*.lock*", "**/.cspell.json"],
+  "allowCompoundWords": true
+}
